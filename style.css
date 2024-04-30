@@ -22,8 +22,6 @@
     padding: 0rem;
   
     border-radius: 0%;
-}.pure-img.M{
-width: 69px;
 }
 /* /coisas do pure  */
 *{
@@ -106,7 +104,7 @@ section.link-map{
 section.formulario{
     margin-top: 1rem;
     padding: 2rem;
-border: #74abfe solid;
+    border: #74abfe solid;
 }
 
 .aviso{
