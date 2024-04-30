@@ -1,0 +1,19 @@
+.img-perfil{
+    margin: 0.3rem;
+}
+
+@media screen and (max-width: 400px){
+    .img-perfil{
+        width: 120px;
+    }
+}
+
+.link-hover{
+    border: 0;
+    border-radius: 40px;
+}
+
+.link-hover:hover{
+    background-color: #74ABFF;
+    
+}
