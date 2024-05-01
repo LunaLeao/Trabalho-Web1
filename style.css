@@ -200,3 +200,7 @@ section.formulario{
     }
 }
 
+.map:hover {
+    color: #388eff;
+    font-style: italic;
+}
