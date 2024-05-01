@@ -1,0 +1,22 @@
+header{
+    margin: 0.3rem;
+    padding: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #CBE0FF;
+    border:solid 3px #74ABFF;
+    border-radius: 10px;
+}
+
+ul{
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    transition: all 0.3s ease 0s;
+}
+
+a:hover {
+    background-color: #74ABFF;
+}
