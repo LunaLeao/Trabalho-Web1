@@ -17,11 +17,6 @@
     color: #000000;
     margin: 3px;
 }
-
-.pure-menu-link{
-    color: rgb(67, 117, 255);
-}
-
 #pureimg{
     padding: 18px;
     display: flex;
@@ -103,19 +98,6 @@ border:hover{
         display: none;
     }
 }
-
-@media screen and (max-width: 450px){
-    .pure-menu-link{
-        font-size: 0.85rem;
-    }
-}
-
-@media screen and (max-width: 420px){
-    .pure-menu-link{
-        font-size: 0.75rem;
-    }
-}
-
 #h11{
     color: black;
 }
@@ -137,13 +119,6 @@ border:hover{
     padding: 3px;
     margin: 0;
     height: 100%;
-    display: flex;
+    display: inline-block;
     align-content: space-evenly;
-    
-}
-
-@media screen and (max-width: 450px) {
-    #alinh{
-        
-    }
 }

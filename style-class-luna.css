@@ -2,9 +2,21 @@
     margin: 0.3rem;
 }
 
+@media screen and (max-width: 450px){
+    .img-perfil{
+        width: 130px;
+    }
+}
+
 @media screen and (max-width: 400px){
     .img-perfil{
         width: 120px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .img-perfil{
+        width: 110px;
     }
 }
 
@@ -16,4 +28,65 @@
 .link-hover:hover{
     background-color: #74ABFF;
     
+}
+
+@media screen and (max-width: 450px) {
+    .pure-menu-horizontal{
+        font-size: 14px;
+        -webkit-text-size-adjust: 100%;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pure-menu-horizontal{
+        font-size: 12px;
+        -webkit-text-size-adjust: 100%;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .pure-menu-horizontal{
+        font-size: 10px;
+        -webkit-text-size-adjust: 100%;
+        width: fit-content;
+    }
+}
+
+.link{
+    all: unset;
+}
+
+.link:hover{
+    padding: 0.3rem;
+    background-color: #74ABFF;
+    border-radius: 20px;
+}
+
+.inform{
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    border: solid 3px #251E9E;
+    border-radius: 20px;
+    background-color: #CED0FF;
+}
+
+.resume{
+    padding: 1rem;
+    padding-top: 0;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    background-color: #e6e4ff;
+    border: solid 3px #251E9E;
+    border-radius: 20px;
+}
+
+.study{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #24008C;
+    font-weight: 500;
 }

@@ -20,9 +20,6 @@ body {
     margin: 0
 }
 
-main {
-    display: block
-}
 
 h1 {
     font-size: 2em;
@@ -1019,13 +1016,7 @@ a.pure-button-selected {
     border-radius: 40px;
 }
 
-@media screen and (max-width: 400px) {
-    .pure-menu-horizontal{
-        font-size: 12px;
-        -webkit-text-size-adjust: 100%;
-        width: fit-content;
-    }
-}
+
 
 .pure-menu-children {
     background-color: #fff
