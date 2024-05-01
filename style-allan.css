@@ -7,6 +7,7 @@ header{
     font-size: 1.1rem    ;
     
     display: flex;
+    flex-direction: column;
 }header h2>a{
    
     font-size: 3rem;
@@ -15,7 +16,7 @@ header{
     align-items: center;
 }
 main{
-    display:flex;
+    display:inline;
     
 }
 article{
@@ -47,33 +48,42 @@ article{
 }
 
 p{
+
+    margin: 1rem;
     font-size: 1.5rem;
 }
 .pure-menu ul.pure-menu-list{
-    display:grid;
-    grid-template-columns:auto  auto;   
+    display:flex;
+    flex-wrap: wrap;
+    gap: 0.1rem; 
+    height: min-content;
 }
 .my-card{
     border: #74abfe solid;
 
     display: flex;
-    flex-direction: column;
-    width: fit-content;
-
-}.my-card  li{
-    display: block;
-    
-}.my-card ul{
-    margin: 0rem;
-} 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+     gap: 1rem;
 
 
-aside{
-    display: flex;
 }
-@media(min-width:1024px){
-    .pure-menu ul.pure-menu-list{
-        display:inline;
-       
+
+
+
+
+@media(max-width:800px) and (min-width:412px){
+    
+    main{
+    display:inline ;
+ }
+}
+@media(max-width:360px){
+    img.pure-img{
+        display: none;
+    }
+    h1{
+        font-size: x-large;
     }
 }
