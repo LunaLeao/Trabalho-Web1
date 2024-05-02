@@ -17,6 +17,9 @@
     color: #000000;
     margin: 3px;
 }
+.h3{
+    font-size: 25px;
+}
 #pureimg{
     padding: 18px;
     display: flex;
